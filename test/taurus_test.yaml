@@ -1,0 +1,18 @@
+execution:
+- concurrency: 40
+  #hold-for: 1m
+  ramp-up: 1m
+  iterations: 1
+  scenario: test_jmeter
+
+scenarios:
+  test_jmeter:
+    script: pruebas_carga_ms-parametrossimulacion-1-0-1.jmx
+
+modules: 
+  monitoring:
+    local:
+    metrics:
+    - cpu
+    - disks
+    - memory
