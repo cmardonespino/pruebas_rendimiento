@@ -25,3 +25,5 @@ Las etapas definidas en el pipeline para las pruebas de performance, en resumen 
 
 ## IMPORTANTE
 Los archivos yaml y jmx utilizados para las pruebas de performance se encuentran ubicadas en la rama **viajes**.
+
+**Proyecto en desarrollo**
