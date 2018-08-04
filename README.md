@@ -17,6 +17,8 @@ Las dependencias necesarias que se deben tener instaladas en la máquina de Jenk
 * pip 10.x+
 * taurus
 
+Moficar el Jenkinsfile y en las variables API_KEY_ID & API_KEY_SECRET del metodo ejecutarTaurus(), se deben ingresar las credenciales generadas a partir de su cuenta en Blazemeter.
+
 ## ¿Como funciona?
 
 Las etapas definidas en el pipeline para las pruebas de performance, en resumen es capturar los archivos yaml (taurus) y jmx (jmeter) de este repositorio, correspondiente a la carpeta [test](/test) para luego ser ejecutados permitiendo asi enviar los resultados a Blazemeter para así poder visualizar de manera gráfica y detallada el resultado del test realizado. Luego del test finalizado, la carpeta generada por Taurus se corta y copia el contenido en una máquina Windows Server para el respaldo de los test realizados. Finalmente se limpia la máquina donde está montado Jenkins.
