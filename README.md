@@ -11,7 +11,18 @@ Para esto, se utilizaron las herramientas:
 * [Blazemeter](https://www.blazemeter.com/)
 
 ## HOWTO
-Las dependencias necesarias que se deben tener instaladas en la máquina de Jenkins son:
+Para la ejecución de este mini-proyecto, se requiere tener instalada las siguientes herramientas:
+
+* [docker](https://www.docker.com/)
+* [docker-compose](https://docs.docker.com/compose/)
+
+## Su ejecución
+
+Para su ejecución, se debe ejecutar el siguiente comando en su shell dentro del directorio del mini-proyecto:
+
+* `docker-compose build -t "nombre de imagen que usted desee" .`l
+
+Lo anterior le permitirá crear una imágen de Jenkins el cual esta montado desde un Ubuntu, en el cual se instalan todas las dependencias necesarias para las pruebas de performance, las cuales son:
 
 * python 3.x+
 * pip 10.x+
