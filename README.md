@@ -3,13 +3,14 @@
 El siguiente proyecto tiene como objetivo la ejecución de pruebas de performance automatizadas para microservicios.
 Para la ejecución automatizada de las pruebas, se utilizó Jenkins para gatillar procesos o stages que permiten desde la ejecución hasta el despliegue de información del test realizado.
 ## Herramientas utilizadas
-Para medir el rendimiento, se utilizaronlas siguientes herramientas:
+Para medir el rendimiento, se utilizaron las siguientes herramientas:
 * [Taurus](https://gettaurus.org/)
 * [Jenkins](https://jenkins.io/)
 * [JMeter](https://jmeter.apache.org/)
 * [Blazemeter](https://www.blazemeter.com/)
 
 ### Requisitos necesarios
+Para la ejecución de este proyecto, se requiere tener instalada lo siguiente en su equipo local
 * [docker](https://www.docker.com/)
 * [docker-compose](https://docs.docker.com/compose/)
 
