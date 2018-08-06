@@ -20,7 +20,7 @@ Para la ejecución de este mini-proyecto, se requiere tener instalada las siguie
 
 Para su ejecución, dentro del directorio del mini-proyecto, debemos cambiarnos a la rama `viajes`
 
-* git checkout viajes
+* `git checkout viajes`
 
 Una vez en la rama `viajes`, ejecutar el siguiente comando en su shell:
 
