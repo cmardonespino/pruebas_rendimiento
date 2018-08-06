@@ -18,7 +18,11 @@ Para la ejecución de este mini-proyecto, se requiere tener instalada las siguie
 
 ## Su ejecución
 
-Para su ejecución, se debe ejecutar el siguiente comando en su shell dentro del directorio del mini-proyecto:
+Para su ejecución, dentro del directorio del mini-proyecto, debemos cambiarnos a la rama `viajes`
+
+* git checkout viajes
+
+Una vez en la rama `viajes`, ejecutar el siguiente comando en su shell:
 
 * `docker-compose build -t "nombre de imagen que usted desee" .`
 
