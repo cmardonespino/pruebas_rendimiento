@@ -34,6 +34,12 @@ Lo anterior le permitirá crear una imágen y posteriormente un contenedor de Je
 * taurus
 
 Además, con lo anterior también permitirá crear una carpeta dentro del mini-proyecto llamada `jenkins`. La razón de crear esta carpeta es debido a que al crear el contenedor, todos los plugin que usted descargue, todos los Jobs que usted cree, serán respaldados en su máquina local en el directorio `jenkins`.
+Para acceder a su Jenkins, se debe dirigir a su browser favorito e ingresar en la URL
+
+* `http://localhost:7990`
+
+Posterior a lo anterior, Jenkins le solicitará una Key, la cual se encuentra en el directorio: `/var/jenkins_home/`
+
 
 Moficar el Jenkinsfile y en las variables API_KEY_ID & API_KEY_SECRET del metodo ejecutarTaurus(), se deben ingresar las credenciales generadas a partir de su cuenta en Blazemeter.
 
