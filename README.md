@@ -3,22 +3,17 @@
 El siguiente proyecto tiene como objetivo la ejecución de pruebas de performance automatizadas.
 Para la ejecución automatizada de las pruebas, se utilizó Jenkins para gatillar procesos o stages que permiten desde la ejecución hasta el despliegue de información del test realizado.
 ## Herramientas utilizadas
-Para esto, se utilizaron las herramientas:
+Para el desarrollo y ejecución de este mini-proyecto, se utilizaronlas siguientes herramientas:
 
+* [docker](https://www.docker.com/)
+* [docker-compose](https://docs.docker.com/compose/)
 * [Taurus](https://gettaurus.org/)
 * [Jenkins](https://jenkins.io/)
 * [JMeter](https://jmeter.apache.org/)
 * [Blazemeter](https://www.blazemeter.com/)
 
 ## HOWTO
-Para la ejecución de este mini-proyecto, se requiere tener instalada las siguientes herramientas:
-
-* [docker](https://www.docker.com/)
-* [docker-compose](https://docs.docker.com/compose/)
-
-## Su ejecución
-
-Para su ejecución, dentro del directorio del mini-proyecto, debemos cambiarnos a la rama `viajes`
+Para su ejecución, una vez clonado el repositorio, dentro del directorio del mini-proyecto, debemos cambiarnos a la rama `viajes`
 
 * `git checkout viajes`
 
