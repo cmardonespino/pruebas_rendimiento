@@ -40,7 +40,7 @@ En caso de no recordar el nombre de la imágen que creó, usted puede ejecutar e
 
 * `docker ps -a`
 
-Esto le permitirá mostrar todas las imágenes que usted ha creado, en este caso, la imágen de Jenkins.
+Esto le permitirá mostrar todos los contenedores que usted ha creado, en este caso, la imágen de Jenkins.
 
 Moficar el Jenkinsfile y en las variables API_KEY_ID & API_KEY_SECRET del metodo ejecutarTaurus(), se deben ingresar las credenciales generadas a partir de su cuenta en Blazemeter.
 
